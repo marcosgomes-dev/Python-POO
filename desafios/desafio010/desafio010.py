@@ -48,12 +48,3 @@ class Mago(Personagem):
         fator = random.randint(0, 100)
         self.vida += fator
         print(f"[blue]{self.nome}[/] tomou uma poção de cura e [green]recuperou {fator} pontos[/] de vida")
-
-
-p1 = Guerreiro("Kratos", 2000)
-p2 = Mago("Gandalf", 1500)
-
-p1.atacar(p2)
-p2.curar()
-p2.atacar(p1)
-p1.curar()
