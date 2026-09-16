@@ -7,7 +7,7 @@ def main():
 
     inspect(p1, methods='True')
     p1.atacar(p2, 200)
-    p1.atacar(p2, 100)
+    p2.atacar(p2, 100)
 
     p1.curar()
     p2.curar()
